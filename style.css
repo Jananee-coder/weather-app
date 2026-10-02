@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    /* Elements wateta thiyena extra space eka ain karanawa. */
+    padding: 0;
+    /* Elements athule thiyena extra space eka ain karanawa. */
+    box-sizing: border-box;
+    /* Box wala width/height eka hariyata control karanna help wenawa. */
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-image: url("background.jpg");
+    background-size: cover;
+    /* Image eka screen eka pura cover wenna hadanawa. */
+    background-position: center;
+    /* Image eke middle eka center karanawa. */
+    background-repeat: no-repeat;
+    /* Image eka aye aye repeat wenne naha. */
+
+    min-height: 100vh;
+    /* Screen eke full height eka cover wenna hadanawa. */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-app {
+    background: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    /* Box eke corners round karanawa. */
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    /* Box ekata shadow ekak denawa.background eken issarahata wage penawa. */
+}
+
+.weather-app h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+.weather-app img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #0077ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    /* Mouse eka button eka uda giyama hand cursor ekak pennanawa. */
+}
+button:active {
+    background: #00a86b;
+    /* Button eka click karagena innakota me style eka apply wenawa. */
+}
+.weather-info {
+    margin-top: 25px;
+}
+.weather-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.weather-info h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.weather-info p {
+    margin: 8px;
+    font-size: 16px;
+}
